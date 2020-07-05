@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to atlas-tamming-calculator!');
+    expect(page.getTitleText()).toEqual('Welcome to atlas-taming-calculator!');
   });
 
   afterEach(async () => {
