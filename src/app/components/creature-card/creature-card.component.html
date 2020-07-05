@@ -1,0 +1,7 @@
+<mat-card class="creature-card mat-elevation-z4" [routerLink]="['/calculator', creature.id]">
+  <mat-card-header>
+    <mat-card-title>{{creature.name}}</mat-card-title>
+    <mat-card-subtitle>{{creature.temperament.name}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://exploreatlas.co.uk/img/creatures/{{creature.name.replace(' ', '')}}.png" alt="Photo of a {{creature.name}}">
+</mat-card>

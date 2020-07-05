@@ -1,3 +1,4 @@
+import { TemperamentInfo } from './temperament-info.model';
 import { StatsInfo } from './stats-info.model';
 import { FoodInfo } from './food-info.model';
 import { BreedingInfo } from './breeding-info.model';
@@ -10,7 +11,7 @@ export class CreatureType {
   name: string;
   speed: string;
   stat: StatsInfo;
-  temperament: string;
+  temperament: TemperamentInfo;
   timebolas: number;
   timefood: number;
 }

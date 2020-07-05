@@ -1,4 +1,3 @@
-import { AppService } from './services/app.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'atlas-taming-calculator';
-
-  constructor(appService: AppService) {
-    appService.types().subscribe(result => {
-      console.log(result);
-    });
-  }
 }

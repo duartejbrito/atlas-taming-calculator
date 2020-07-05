@@ -42,13 +42,17 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { CalculatorComponent } from './components/calculator/calculator.component';
+import { CreatureCardComponent } from './components/creature-card/creature-card.component';
+import { CalculatorCreatureComponent } from './components/calculator-creature/calculator-creature.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    CreatureCardComponent,
+    CalculatorCreatureComponent
   ],
   imports: [
     BrowserModule,
