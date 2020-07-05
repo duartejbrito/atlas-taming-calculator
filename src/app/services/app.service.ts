@@ -6,16 +6,15 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class AppService {
-  private baseUrl = `https://exploreatlas.co.uk/api`;
+  private baseUrl = `assets/creature-data.json`;
 
   constructor(private http: HttpClient) { }
 
-  types() {
-    // return this.http.get<CreatureType[]>(`${this.baseUrl}/calculators/creature-types`);
-    return this.http.get<CreatureType[]>(`assets/creature-data.json`);
+  private data() {
+    return this.http.get<CreatureType[]>(`${this.baseUrl}`);
   }
 
-  type(id: number) {
-    return this.http.get<CreatureType>(`${this.baseUrl}/calculators/creature-types/${id}`);
+  types() {
+    return this.data();
   }
 }
