@@ -11,7 +11,8 @@ export class AppService {
   constructor(private http: HttpClient) { }
 
   types() {
-    return this.http.get<CreatureType[]>(`${this.baseUrl}/calculators/creature-types`);
+    // return this.http.get<CreatureType[]>(`${this.baseUrl}/calculators/creature-types`);
+    return this.http.get<CreatureType[]>(`assets/creature-data.json`);
   }
 
   type(id: number) {

@@ -3,6 +3,7 @@ import { FoodInfo } from './food-info.model';
 import { BreedingInfo } from './breeding-info.model';
 
 export class CreatureType {
+  id: number;
   breeding: BreedingInfo;
   food: FoodInfo[];
   label: string;
