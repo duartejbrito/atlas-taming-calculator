@@ -1,0 +1,1801 @@
+[{
+  "id": 3,
+  "creature_type_temperament_id": 1,
+  "name": "Bear",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "honey",
+      "label": "honey",
+      "effectiveness": 4.06
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 3.3
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 3.3
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 2.2
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 1.45
+  }],
+  "stat": {
+      "health": {
+          "base": "262.5",
+          "pretame": "39.375"
+      },
+      "food": {
+          "base": "3000",
+          "pretame": "300"
+      },
+      "oxygen": {
+          "base": "270",
+          "pretame": "27"
+      },
+      "stamina": {
+          "base": "500",
+          "pretame": "50"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "950",
+          "pretame": "19"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "6",
+      "matingMaxTemp": "23",
+      "totalMaturationTime": "151200",
+      "biomeTags": ["EasternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Polar"]
+  },
+  "timebolas": 110,
+  "timefood": 21,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 6,
+  "creature_type_temperament_id": 4,
+  "name": "Cow",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "rush",
+      "label": "rush",
+      "effectiveness": 5.5
+  }, {
+      "name": "frond",
+      "label": "frond",
+      "effectiveness": 5.5
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 4.5
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 4.5
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 3
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 2
+  }],
+  "stat": {
+      "health": {
+          "base": "131.25",
+          "pretame": "19.6875"
+      },
+      "food": {
+          "base": "1200",
+          "pretame": "120"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "280",
+          "pretame": "28"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "650",
+          "pretame": "13"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "17",
+      "matingMaxTemp": "34",
+      "totalMaturationTime": "142200",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "HighDesert", "LowDesert"]
+  },
+  "timebolas": null,
+  "timefood": 16,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 4,
+      "name": "Skittish",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 8,
+  "creature_type_temperament_id": 1,
+  "name": "Crow",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "earthworm",
+      "label": "earthworm",
+      "effectiveness": 4.56
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 3.17
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 1.8
+  }],
+  "stat": {
+      "health": {
+          "base": "45",
+          "pretame": "6.75"
+      },
+      "food": {
+          "base": "900",
+          "pretame": "90"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "100",
+          "pretame": "10"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "15",
+          "pretame": "0.3"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "36",
+      "eggMaxTemp": "46",
+      "matingMinTemp": "14",
+      "matingMaxTemp": "31",
+      "totalMaturationTime": "93600",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "Polar", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 120,
+  "timefood": 15,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 10,
+  "creature_type_temperament_id": 7,
+  "name": "Chicken",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 6.36
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 4.26
+  }],
+  "stat": {
+      "health": {
+          "base": "35",
+          "pretame": "5.25"
+      },
+      "food": {
+          "base": "600",
+          "pretame": "60"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "100",
+          "pretame": "10"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "10",
+          "pretame": "0.2"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "35",
+      "eggMaxTemp": "45",
+      "matingMinTemp": "13",
+      "matingMaxTemp": "31",
+      "totalMaturationTime": "60600",
+      "biomeTags": ["EasternTropics", "WesternTropics", "WesternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "Polar", "HighDesert"]
+  },
+  "timebolas": null,
+  "timefood": 10,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 7,
+      "name": "Passive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 14,
+  "creature_type_temperament_id": 1,
+  "name": "Elephant",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "wheat",
+      "label": "wheat",
+      "effectiveness": 2.12
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 1.74
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 1.74
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 1.17
+  }],
+  "stat": {
+      "health": {
+          "base": "325",
+          "pretame": "48.75"
+      },
+      "food": {
+          "base": "5000",
+          "pretame": "500"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "330",
+          "pretame": "33"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "2000",
+          "pretame": "40"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "26",
+      "matingMaxTemp": "42",
+      "totalMaturationTime": "243000",
+      "biomeTags": ["WesternTropics", "Equatorial", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 95,
+  "timefood": 15,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 21,
+  "creature_type_temperament_id": 1,
+  "name": "Giraffe",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "beet",
+      "label": "beet",
+      "effectiveness": 3.03
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 2.48
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 2.48
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 1.67
+  }],
+  "stat": {
+      "health": {
+          "base": "287.5",
+          "pretame": "43.125"
+      },
+      "food": {
+          "base": "3000",
+          "pretame": "300"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "440",
+          "pretame": "44"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "1540",
+          "pretame": "30.8"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "25",
+      "matingMaxTemp": "41",
+      "totalMaturationTime": "237600",
+      "biomeTags": ["EasternTropics", "WesternTropics", "Equatorial", "Polar", "HighDesert"]
+  },
+  "timebolas": 100,
+  "timefood": 20,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 23,
+  "creature_type_temperament_id": 4,
+  "name": "Horse",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "sugarCane",
+      "label": "sugar cane",
+      "effectiveness": 4.33
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 3.56
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 3.56
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 2.36
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 1.6
+  }],
+  "stat": {
+      "health": {
+          "base": "225",
+          "pretame": "33.75"
+      },
+      "food": {
+          "base": "1500",
+          "pretame": "150"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "580",
+          "pretame": "58"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "750",
+          "pretame": "15"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "16",
+      "matingMaxTemp": "33",
+      "totalMaturationTime": "158400",
+      "biomeTags": ["EasternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 130,
+  "timefood": 17,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 4,
+      "name": "Skittish",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 28,
+  "creature_type_temperament_id": 10,
+  "name": "Lion",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "primeMeat",
+      "label": "prime meat",
+      "effectiveness": 6.34
+  }, {
+      "name": "meat",
+      "label": "meat",
+      "effectiveness": 3.17
+  }],
+  "stat": {
+      "health": {
+          "base": "162.5",
+          "pretame": "24.375"
+      },
+      "food": {
+          "base": "1200",
+          "pretame": "120"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "240",
+          "pretame": "24"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "220",
+          "pretame": "4"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "18",
+      "matingMaxTemp": "34",
+      "totalMaturationTime": "208800",
+      "biomeTags": ["EasternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Polar", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 100,
+  "timefood": 42,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 10,
+      "name": "Aggressive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 33,
+  "creature_type_temperament_id": 4,
+  "name": "Monkey",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 5.2
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 3.8
+  }],
+  "stat": {
+      "health": {
+          "base": "48.75",
+          "pretame": "7.3125"
+      },
+      "food": {
+          "base": "600",
+          "pretame": "60"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "100",
+          "pretame": "10"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "40",
+          "pretame": "0.8"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "17",
+      "matingMaxTemp": "34",
+      "totalMaturationTime": "97200",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "HighDesert", "LowDesert"]
+  },
+  "timebolas": null,
+  "timefood": 14,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 4,
+      "name": "Skittish",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 34,
+  "creature_type_temperament_id": 1,
+  "name": "Ostrich",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "chili",
+      "label": "chili",
+      "effectiveness": 3.26
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 2.66
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 2.66
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 1.77
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 1.17
+  }],
+  "stat": {
+      "health": {
+          "base": "106.25",
+          "pretame": "15.9375"
+      },
+      "food": {
+          "base": "1000",
+          "pretame": "100"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "300",
+          "pretame": "30"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "430",
+          "pretame": "8.6"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "49",
+      "eggMaxTemp": "57",
+      "matingMinTemp": "27",
+      "matingMaxTemp": "43",
+      "totalMaturationTime": "180000",
+      "biomeTags": ["WesternTropics", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 125,
+  "timefood": 19,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 35,
+  "creature_type_temperament_id": 1,
+  "name": "Parrot",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "hardtack",
+      "label": "hardtack",
+      "effectiveness": 10.46
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 3.8
+  }],
+  "stat": {
+      "health": {
+          "base": "40",
+          "pretame": "6"
+      },
+      "food": {
+          "base": "900",
+          "pretame": "90"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "15",
+          "pretame": "0.3"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "45",
+      "eggMaxTemp": "55",
+      "matingMinTemp": "23",
+      "matingMaxTemp": "40",
+      "totalMaturationTime": "88200",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "HighDesert"]
+  },
+  "timebolas": 150,
+  "timefood": 18,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 36,
+  "creature_type_temperament_id": 7,
+  "name": "Penguin",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "primeFish",
+      "label": "prime fish",
+      "effectiveness": 12.43
+  }, {
+      "name": "fish",
+      "label": "fish",
+      "effectiveness": 6.2
+  }],
+  "stat": {
+      "health": {
+          "base": "57.5",
+          "pretame": "8.625"
+      },
+      "food": {
+          "base": "900",
+          "pretame": "90"
+      },
+      "oxygen": {
+          "base": "Nan",
+          "pretame": "0"
+      },
+      "stamina": {
+          "base": "100",
+          "pretame": "10"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "32",
+          "pretame": "0.64"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "8",
+      "eggMaxTemp": "16",
+      "matingMinTemp": "-14",
+      "matingMaxTemp": "3",
+      "totalMaturationTime": "120600",
+      "biomeTags": ["Polar"]
+  },
+  "timebolas": 140,
+  "timefood": 30,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 7,
+      "name": "Passive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 37,
+  "creature_type_temperament_id": 1,
+  "name": "Pig",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "maize",
+      "label": "maize",
+      "effectiveness": 3.7
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 3.06
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 3.06
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 2.04
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 1.36
+  }],
+  "stat": {
+      "health": {
+          "base": "110",
+          "pretame": "16.5"
+      },
+      "food": {
+          "base": "3000",
+          "pretame": "300"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "300",
+          "pretame": "30"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "190",
+          "pretame": "3.8"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "15",
+      "matingMaxTemp": "32",
+      "totalMaturationTime": "136800",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Equatorial"]
+  },
+  "timebolas": null,
+  "timefood": 13,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:07",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 38,
+  "creature_type_temperament_id": 4,
+  "name": "Rabbit",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "carrot",
+      "label": "carrot",
+      "effectiveness": 10.06
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 4
+  }],
+  "stat": {
+      "health": {
+          "base": "37.5",
+          "pretame": "5.625"
+      },
+      "food": {
+          "base": "600",
+          "pretame": "60"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "120",
+          "pretame": "12"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "10",
+          "pretame": "0.2"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "9",
+      "matingMaxTemp": "27",
+      "totalMaturationTime": "29700",
+      "biomeTags": ["EasternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Polar", "HighDesert", "LowDesert"]
+  },
+  "timebolas": null,
+  "timefood": 20,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 4,
+      "name": "Skittish",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 40,
+  "creature_type_temperament_id": 10,
+  "name": "Razortooth",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "cookedPrimeFish",
+      "label": "cooked prime fish",
+      "effectiveness": 4.6
+  }, {
+      "name": "cookedPrimeMeat",
+      "label": "cooked prime meat",
+      "effectiveness": 4.6
+  }, {
+      "name": "porkPie",
+      "label": "pork pie",
+      "effectiveness": 4.6
+  }, {
+      "name": "stuffedNBakedFish",
+      "label": "stuffed n baked fish",
+      "effectiveness": 4.6
+  }, {
+      "name": "beefBuns",
+      "label": "beef buns",
+      "effectiveness": 4.6
+  }, {
+      "name": "fishNShips",
+      "label": "fish n ships",
+      "effectiveness": 4.6
+  }, {
+      "name": "rosemaryChicken",
+      "label": "rosemary chicken",
+      "effectiveness": 4.6
+  }],
+  "stat": {
+      "health": {
+          "base": "267.5",
+          "pretame": "40.125"
+      },
+      "food": {
+          "base": "2750",
+          "pretame": "275"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "120",
+          "pretame": "12"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "210",
+          "pretame": "4.2"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "52",
+      "eggMaxTemp": "58",
+      "matingMinTemp": "30",
+      "matingMaxTemp": "45",
+      "totalMaturationTime": "277200",
+      "biomeTags": ["EasternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 85,
+  "timefood": 28,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 10,
+      "name": "Aggressive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 41,
+  "creature_type_temperament_id": 1,
+  "name": "Rhinoceros",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "turnip",
+      "label": "turnip",
+      "effectiveness": 2.82
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 2.3
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 2.3
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 1.54
+  }],
+  "stat": {
+      "health": {
+          "base": "337.5",
+          "pretame": "50.625"
+      },
+      "food": {
+          "base": "3000",
+          "pretame": "300"
+      },
+      "oxygen": {
+          "base": "100",
+          "pretame": "10"
+      },
+      "stamina": {
+          "base": "190",
+          "pretame": "19"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "1200",
+          "pretame": "24"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "24",
+      "matingMaxTemp": "40",
+      "totalMaturationTime": "248400",
+      "biomeTags": ["Western Tropics", "High Desert", "Low Desert"]
+  },
+  "timebolas": 100,
+  "timefood": 23,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 44,
+  "creature_type_temperament_id": 1,
+  "name": "Sea Gull",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "primeFish",
+      "label": "prime fish",
+      "effectiveness": 9.06
+  }, {
+      "name": "fish",
+      "label": "fish",
+      "effectiveness": 4.54
+  }],
+  "stat": {
+      "health": {
+          "base": "42.5",
+          "pretame": "6.375"
+      },
+      "food": {
+          "base": "900",
+          "pretame": "90"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "100",
+          "pretame": "10"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "15",
+          "pretame": "0.3"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "32",
+      "eggMaxTemp": "42",
+      "matingMinTemp": "10",
+      "matingMaxTemp": "27",
+      "totalMaturationTime": "90900",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Polar", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 110,
+  "timefood": 32,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 46,
+  "creature_type_temperament_id": 7,
+  "name": "Sheep",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "flower",
+      "label": "flower",
+      "effectiveness": 7
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 2.56
+  }],
+  "stat": {
+      "health": {
+          "base": "102.5",
+          "pretame": "15.375"
+      },
+      "food": {
+          "base": "1200",
+          "pretame": "120"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "160",
+          "pretame": "16"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "90",
+          "pretame": "1.8"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "16",
+      "matingMaxTemp": "33",
+      "totalMaturationTime": "133200",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "HighDesert", "LowDesert"]
+  },
+  "timebolas": null,
+  "timefood": 24,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 7,
+      "name": "Passive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 47,
+  "creature_type_temperament_id": 13,
+  "name": "Shieldhorn",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "beet",
+      "label": "beet",
+      "effectiveness": 6.43
+  }, {
+      "name": "chili",
+      "label": "chili",
+      "effectiveness": 6.43
+  }, {
+      "name": "edibleGreens",
+      "label": "edible greens",
+      "effectiveness": 6.43
+  }, {
+      "name": "onion",
+      "label": "onion",
+      "effectiveness": 6.43
+  }, {
+      "name": "pepper",
+      "label": "pepper",
+      "effectiveness": 6.43
+  }, {
+      "name": "potato",
+      "label": "potato",
+      "effectiveness": 6.43
+  }, {
+      "name": "turnip",
+      "label": "turnip",
+      "effectiveness": 6.43
+  }],
+  "stat": {
+      "health": {
+          "base": "337.5",
+          "pretame": "50.625"
+      },
+      "food": {
+          "base": "3000",
+          "pretame": "300"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "170",
+          "pretame": "17"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "390",
+          "pretame": "7.8"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "50",
+      "eggMaxTemp": "56",
+      "matingMinTemp": "28",
+      "matingMaxTemp": "43",
+      "totalMaturationTime": "268200",
+      "biomeTags": ["EasternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 115,
+  "timefood": 33,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 13,
+      "name": "Territorial",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 51,
+  "creature_type_temperament_id": 10,
+  "name": "Tiger",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "primeMeat",
+      "label": "prime meat",
+      "effectiveness": 5.87
+  }, {
+      "name": "meat",
+      "label": "meat",
+      "effectiveness": 2.94
+  }],
+  "stat": {
+      "health": {
+          "base": "200",
+          "pretame": "30"
+      },
+      "food": {
+          "base": "1300",
+          "pretame": "130"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "160",
+          "pretame": "16"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "240",
+          "pretame": "4.8"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "20",
+      "matingMaxTemp": "36",
+      "totalMaturationTime": "214200",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "HighDesert"]
+  },
+  "timebolas": 90,
+  "timefood": 40,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 10,
+      "name": "Aggressive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 53,
+  "creature_type_temperament_id": 1,
+  "name": "Vulture",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "rottenMeat",
+      "label": "rotten meat",
+      "effectiveness": 5.67
+  }, {
+      "name": "earthworm",
+      "label": "earthworm",
+      "effectiveness": 1.42
+  }],
+  "stat": {
+      "health": {
+          "base": "57.5",
+          "pretame": "8.625"
+      },
+      "food": {
+          "base": "900",
+          "pretame": "90"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "100",
+          "pretame": "10"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "20",
+          "pretame": "0.4"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "47",
+      "eggMaxTemp": "55",
+      "matingMinTemp": "25",
+      "matingMaxTemp": "42",
+      "totalMaturationTime": "126000",
+      "biomeTags": ["HighDesert", "LowDesert"]
+  },
+  "timebolas": 125,
+  "timefood": 27,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 54,
+  "creature_type_temperament_id": 10,
+  "name": "Wolf",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "primeMeat",
+      "label": "prime meat",
+      "effectiveness": 7.62
+  }, {
+      "name": "bone",
+      "label": "bone",
+      "effectiveness": 4.78
+  }, {
+      "name": "meat",
+      "label": "meat",
+      "effectiveness": 3.8
+  }],
+  "stat": {
+      "health": {
+          "base": "112.6",
+          "pretame": "16.89"
+      },
+      "food": {
+          "base": "1200",
+          "pretame": "120"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "210",
+          "pretame": "21"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "200",
+          "pretame": "4"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "14",
+      "matingMaxTemp": "30",
+      "totalMaturationTime": "189000",
+      "biomeTags": ["Eastern Tropics", "Western Tropics", "Eastern Temperate", "Western Temperate", "Eastern Tundra", "Western Tundra", "Equatorial", "Polar", "High Desert", "Low Desert"]
+  },
+  "timebolas": 105,
+  "timefood": 30,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 10,
+      "name": "Aggressive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 60,
+  "creature_type_temperament_id": 1,
+  "name": "Bull",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "rush",
+      "label": "rush",
+      "effectiveness": 5.5
+  }, {
+      "name": "frond",
+      "label": "frond",
+      "effectiveness": 5.5
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 4.5
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 4.5
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 3
+  }, {
+      "name": "berry",
+      "label": "berry",
+      "effectiveness": 2
+  }],
+  "stat": {
+      "health": {
+          "base": "131.25",
+          "pretame": "19.6875"
+      },
+      "food": {
+          "base": "1200",
+          "pretame": "120"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "280",
+          "pretame": "28"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "650",
+          "pretame": "13"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "17",
+      "matingMaxTemp": "34",
+      "totalMaturationTime": "142200",
+      "biomeTags": ["EasternTropics", "WesternTropics", "EasternTemperate", "WesternTemperate", "EasternTundra", "WesternTundra", "Equatorial", "HighDesert", "LowDesert"]
+  },
+  "timebolas": 115,
+  "timefood": 16,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 65,
+  "creature_type_temperament_id": 1,
+  "name": "Olfend",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "cactus",
+      "label": "cactus",
+      "effectiveness": 3.1
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 2.5
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 2.5
+  }, {
+      "name": "lime",
+      "label": "lime",
+      "effectiveness": 1.7
+  }],
+  "stat": {
+      "health": {
+          "base": "200",
+          "pretame": "30"
+      },
+      "food": {
+          "base": "1500",
+          "pretame": "150"
+      },
+      "oxygen": {
+          "base": "150",
+          "pretame": "15"
+      },
+      "stamina": {
+          "base": "380",
+          "pretame": "38"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "400",
+          "pretame": "8"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": "25",
+      "matingMaxTemp": "41",
+      "totalMaturationTime": "219600",
+      "biomeTags": ["HighDesert", "LowDesert"]
+  },
+  "timebolas": 110,
+  "timefood": 20,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 68,
+  "creature_type_temperament_id": 1,
+  "name": "Grand Tortugar",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "crustaceanMeat",
+      "label": "crustacean meat",
+      "effectiveness": 3.8
+  }, {
+      "name": "vegetable",
+      "label": "vegetable",
+      "effectiveness": 3.1
+  }, {
+      "name": "fruit",
+      "label": "fruit",
+      "effectiveness": 3.1
+  }, {
+      "name": "marrow",
+      "label": "marrow",
+      "effectiveness": 3.1
+  }, {
+      "name": "primeMeat",
+      "label": "prime meat",
+      "effectiveness": 2.7
+  }, {
+      "name": "primeFish",
+      "label": "prime fish",
+      "effectiveness": 2.3
+  }, {
+      "name": "meat",
+      "label": "meat",
+      "effectiveness": 1.5
+  }, {
+      "name": "fish",
+      "label": "fish",
+      "effectiveness": 1.1
+  }],
+  "stat": {
+      "health": {
+          "base": "625",
+          "pretame": "93.75"
+      },
+      "food": {
+          "base": "3500",
+          "pretame": "350"
+      },
+      "oxygen": {
+          "base": "600",
+          "pretame": "60"
+      },
+      "stamina": {
+          "base": "200",
+          "pretame": "20"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "2250",
+          "pretame": "45"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "54",
+      "eggMaxTemp": "60",
+      "matingMinTemp": "32",
+      "matingMaxTemp": "47",
+      "totalMaturationTime": "279000",
+      "biomeTags": ["Equatorial"]
+  },
+  "timebolas": 85,
+  "timefood": 25,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 1,
+      "name": "Defensive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 74,
+  "creature_type_temperament_id": 10,
+  "name": "Crab",
+  "ptr": 0,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "innard",
+      "label": "innard",
+      "effectiveness": 3.93
+  }],
+  "stat": {
+      "health": {
+          "base": "300",
+          "pretame": "45"
+      },
+      "food": {
+          "base": "2000",
+          "pretame": "200"
+      },
+      "oxygen": {
+          "base": "Nan",
+          "pretame": "0"
+      },
+      "stamina": {
+          "base": "300",
+          "pretame": "30"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.45"
+      },
+      "weight": {
+          "base": "1400",
+          "pretame": "28"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": null,
+      "eggMaxTemp": null,
+      "matingMinTemp": null,
+      "matingMaxTemp": null,
+      "totalMaturationTime": null
+  },
+  "timebolas": 95,
+  "timefood": 22,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 10,
+      "name": "Aggressive",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}, {
+  "id": 75,
+  "creature_type_temperament_id": 4,
+  "name": "Cat",
+  "ptr": 1,
+  "taming_calculator": 1,
+  "food": [{
+      "name": "innard",
+      "label": "innard",
+      "effectiveness": 3.93
+  }],
+  "stat": {
+      "health": {
+          "base": "75",
+          "pretame": "11.25"
+      },
+      "food": {
+          "base": "600",
+          "pretame": "60"
+      },
+      "oxygen": {
+          "base": "175",
+          "pretame": "17.5"
+      },
+      "water": {
+          "base": null,
+          "pretame": null
+      },
+      "stamina": {
+          "base": "200",
+          "pretame": "20"
+      },
+      "attack": {
+          "base": "114.1",
+          "pretame": "4.5"
+      },
+      "weight": {
+          "base": "25",
+          "pretame": "0.5"
+      }
+  },
+  "breeding": {
+      "eggMinTemp": "0",
+      "eggMaxTemp": "0",
+      "matingMinTemp": "0",
+      "matingMaxTemp": "0",
+      "totalMaturationTime": "0",
+      "gestation": "0",
+      "incubation": "0"
+  },
+  "timebolas": 0,
+  "timefood": 32,
+  "speed": "?",
+  "created_at": "2019-10-07 12:19:08",
+  "updated_at": null,
+  "temperament": {
+      "id": 4,
+      "name": "Skittish",
+      "created_at": "2019-10-07 12:19:08",
+      "updated_at": null
+  }
+}]
