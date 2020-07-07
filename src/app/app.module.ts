@@ -44,6 +44,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { CreatureCardComponent } from './components/creature-card/creature-card.component';
 import { CalculatorCreatureComponent } from './components/calculator-creature/calculator-creature.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,8 @@ import { CalculatorCreatureComponent } from './components/calculator-creature/ca
     HttpClientModule,
     AppRoutingModule,
     FlexLayoutModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     MatCheckboxModule,
     MatCheckboxModule,

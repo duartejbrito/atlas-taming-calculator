@@ -1,1 +1,43 @@
-<p>calculator-creature works!</p>
+<h2 *ngIf="creature" >{{creature.name}}</h2>
+
+<form [formGroup]="calculatorForm">
+  <table mat-table [dataSource]="creatureStats" class="mat-elevation-z8">
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Stat </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+    <ng-container matColumnDef="base">
+      <th mat-header-cell *matHeaderCellDef> Base </th>
+      <td mat-cell *matCellDef="let element"> {{element.base}} </td>
+    </ng-container>
+    <ng-container matColumnDef="perLevel">
+      <th mat-header-cell *matHeaderCellDef> Per level </th>
+      <td mat-cell *matCellDef="let element"> +{{element.perLevel}} </td>
+    </ng-container>
+    <ng-container matColumnDef="multiplier">
+      <th mat-header-cell *matHeaderCellDef> Multiplier </th>
+      <td mat-cell *matCellDef="let element">
+        <mat-form-field appearance="outline">
+          <mat-label>{{element.name}} multiplier</mat-label>
+          <input matInput formControlName="{{element.name}}Multiplier">
+        </mat-form-field>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="value">
+      <th mat-header-cell *matHeaderCellDef> Value </th>
+      <td mat-cell *matCellDef="let element">
+        <mat-form-field appearance="outline">
+          <mat-label>{{element.name}} value</mat-label>
+          <input matInput formControlName="{{element.name}}Value" #valueInput>
+        </mat-form-field>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="points">
+      <th mat-header-cell *matHeaderCellDef> Points </th>
+      <td mat-cell *matCellDef="let element; let i = index"> {{ points(element, i) }} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+</form>

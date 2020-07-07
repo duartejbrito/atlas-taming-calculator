@@ -4,4 +4,7 @@
     <mat-card-subtitle>{{creature.temperament.name}}</mat-card-subtitle>
   </mat-card-header>
   <img mat-card-image src="https://exploreatlas.co.uk/img/creatures/{{creature.name.replace(' ', '')}}.png" alt="Photo of a {{creature.name}}">
+  <mat-card-content>
+    <!-- <img *ngFor="let food of creature.food" width="25" src="https://exploreatlas.co.uk/img/calculators/items/{{food.name}}.png" alt="{{food.name}}"> -->
+  </mat-card-content>
 </mat-card>

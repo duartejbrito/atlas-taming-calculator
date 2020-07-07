@@ -12,7 +12,7 @@ import {takeUntil} from 'rxjs/operators';
 export class CalculatorComponent implements OnInit, OnDestroy {
   observable$: Observable<CreatureType[]>;
   unsubscribe$: Subject<void> = new Subject<void>();
-  latestValue: CreatureType[];
+  creatures: CreatureType[];
 
   constructor(appService: AppService) {
     this.observable$ = appService.types();
@@ -21,7 +21,7 @@ export class CalculatorComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.observable$
       .pipe(takeUntil(this.unsubscribe$))
-      .subscribe(result => this.latestValue = result);
+      .subscribe(result => this.creatures = result);
   }
 
   ngOnDestroy(){
