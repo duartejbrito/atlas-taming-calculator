@@ -84,7 +84,7 @@ export class CalculatorCreatureComponent implements OnInit, OnDestroy {
     const multiplier = Number(this.calculatorForm.get(`${stat.key}Multiplier`).value);
     const value = Number(this.calculatorForm.get(`${stat.key}Value`).value);
     if (value > stat.base) {
-      return (value - stat.base) / (stat.perLevel * multiplier);
+      return Math.ceil((value - stat.base) / (stat.perLevel * multiplier));
     }
     return 0;
   }
