@@ -80,7 +80,7 @@ export class CalculatorCreatureComponent implements OnInit, OnDestroy {
     });
   }
 
-  points(stat: CreatureStat, index: number): number {
+  points(stat: CreatureStat): number {
     const multiplier = Number(this.calculatorForm.get(`${stat.key}Multiplier`).value);
     const value = Number(this.calculatorForm.get(`${stat.key}Value`).value);
     if (value > stat.base) {
